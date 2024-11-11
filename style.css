@@ -1,0 +1,64 @@
+/* Lehe pealkirja kujundamine */
+#pealkiri {
+    color: #333;
+    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Teksti kujundamine */
+.tekst {
+    color: #666;
+    font-size: 1.2em;
+    font-family: 'Georgia', serif;
+    text-align: justify;
+}
+
+/* Pildi kujundamine */
+.pilt {
+    border: 5px solid #333;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Tabeli kujundamine */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+/* Lehe taustavärvi muutmine */
+body {
+    background-color: #f4f4f4;
+    /* Või taustapilt:
+    background-image: url('taustapilt.jpg');
+    background-size: cover;
+    */
+}
+
+/* Info kahe tulbana */
+.tulp {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* Kustuta üleliigne kaugus */
+.tulp:last-child {
+    margin-bottom: 0;
+}
